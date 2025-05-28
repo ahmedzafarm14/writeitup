@@ -1,0 +1,32 @@
+{
+  "name": "writeitup",
+  "version": "1.0.0",
+  "description": "This is a project which is used to convert a youtube video to a blogpost",
+  "type": "module",
+  "main": "./src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmedzafarm14/writeitup.git"
+  },
+  "author": "Ahmad Zafar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmedzafarm14/writeitup/issues"
+  },
+  "homepage": "https://github.com/ahmedzafarm14/writeitup#readme",
+  "dependencies": {
+    "@langchain/openai": "^0.5.11",
+    "axios": "^1.9.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "langchain": "^0.3.27",
+    "nodemon": "^3.1.10",
+    "ytdl-core": "^4.11.5"
+  }
+}
